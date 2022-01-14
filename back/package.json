@@ -1,0 +1,32 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SpiritF0rest/SandraWeidenthal_6_08072021.git"
+  },
+  "author": "Sandra Weidenthal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpiritF0rest/SandraWeidenthal_6_08072021/issues"
+  },
+  "homepage": "https://github.com/SpiritF0rest/SandraWeidenthal_6_08072021#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-rate-limit": "^6.1.0",
+    "helmet": "^5.0.1",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2",
+    "mongoose-unique-validator": "^3.0.0",
+    "multer": "^1.4.4",
+    "password-validator": "^5.2.1"
+  }
+}
